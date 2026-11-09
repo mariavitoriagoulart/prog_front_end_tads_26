@@ -1,42 +1,64 @@
-/*Reset*/
-*{
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Bold.ttf") format(truetype);
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Bold.ttf") format(truetype);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Reset */
+* {
     margin: 0;
     padding: 0;
 }
 
-/*Estilos Desktop*/
-body{
-    background-color: #0e1014;
-    color: #fff;
+/* Estilos Desktop */
+body {
+    background-color: #0E1014;
+    color: #FFF;
 }
 
-header img{
+header img {
     display: block;
     margin: 75px 0 0 360px;
 }
-h1{
+
+h1 {
     font-size: 64px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: "Poppins", sans-serif;
     text-align: center;
-    margin: 60px 0 0 0;
+    margin-top: 60px;
 }
 
-h1 span{
-    color: #9747ff;
+h1 span {
+    color: #9747FF;
 }
-p{
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Roboto", sans-serif;
     font-size: 24px;
-    font-family: georgia, 'Times New Roman', Times, serif;
     text-align: center;
     margin: 24px auto 0;
     width: 792px;
 }
-a{
-    color: #fff;
+
+a {
+    color: #FFF;
     font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 24px;
     text-decoration: none;
-    background-color: #9747ff;
+    background-color: #9747FF;
     width: 340px;
     height: 66px;
     display: block;
@@ -47,15 +69,13 @@ a{
 }
 
 a:hover{
-    background-color: #b233e8;
-    border: 3px solid #fff;
-
+    background-color: #B233E8;
+    border: 2px solid #FFF;   
 }
 
-section img{
+section img {
     display: block;
     margin: 0 auto;
     width: 792px;
-    h
-
+    height: 446px;
 }

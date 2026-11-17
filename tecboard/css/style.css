@@ -26,9 +26,20 @@ body {
     color: #FFF;
 }
 
+header {
+    display: flex;
+    margin: 75px 360 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
 header img {
     display: block;
-    margin: 75px 0 0 360px;
+}
+
+header span{
+    font-size: 24px;
+    cursor: pointer;
 }
 
 h1 {
